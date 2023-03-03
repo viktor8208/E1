@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+<head>
+<title>
+
+    {% block title %}
+    {{ flatpage.title }}
+    {% endblock title %}
+    </title>
+</head>
+
+
+
+<body>
+
+<div >
+
+
+            <ul class="navigation">
+                <a href="/app/"><li>Главная</li></a>
+                <a href="about"><li>Обо мне</li></a>
+                <a href="contacts"><li>Обратная связь</li></a>
+
+            </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+
+<div class="content">
+
+
+{% block content %}
+{{ flatpage.content }}
+{% endblock content %}
+</div>
+</body>
+
+</html>

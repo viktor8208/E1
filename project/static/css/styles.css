@@ -1,0 +1,42 @@
+
+.content{
+    padding-left: 40px;
+    font-family: Verdana;
+}
+
+.inner-header h1{
+
+    color: red;
+
+}
+
+.navigation{
+    float: left;
+    height: 100%;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 20px 152px;
+    background-color: #101010;
+}
+
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 25px;
+    color: white;
+}
+
+.navigation a li:hover{
+    background-color: gray;
+    color: #101010;
+}
+
+.image{
+margin: 0 50px 0px 0px;
+ float: left;
+}
+
